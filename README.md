@@ -1,5 +1,5 @@
-# scRNAseq_workshop_helsinki
-This git repository contains the data/files required for scRNA-seq workshop sessions.
+# Single cell RNAseq workshop (Helsinki) 
+This git repository (scRNAseq_workshop_helsinki) contains the data/files required for scRNA-seq workshop sessions.
 
 Please find following files/data in this git repository.
 
