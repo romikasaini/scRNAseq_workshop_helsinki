@@ -1,10 +1,11 @@
 # scRNAseq_workshop_helsinki
-Contains the data required for the students for the scRNA-seq workshop
+This git repository contains the data/files required for scRNA-seq workshop sessions.
 
-Please find following files in this git repository.
+Please find following files/data in this git repository.
+
 1. Packages_required.txt: This file contains the list of R packages which need to be installed prior to the workshop. 
-2. Excercise_commands.Rmd: Contains the list of R commands required for analysing the single cell RNA-seq data using seurat and few other tools.
-3. data1.zip: Contains the example data which we will using during the workshop session.
+2. Excercise_commands.Rmd: Contains the list of R commands required for analysing the single cell RNA-seq data using seurat and few other tools, which we will be going through during the workshop sessions.
+3. data1.zip: Contains the example data which we will using during the workshop sessions.
 4. data2.zip: Contains another set of example data.
 
 
