@@ -11,7 +11,7 @@ Please find following files/data in this git repository.
 
 # Please find the scRNA-seq workshop schedule below
 
-##Program
+## Program 
 Thursday 6th October, Biomedicum 2U, D307a, Third floor D-wing
 
 9.00-9.15 Romika Kumari (Postdoc, Heckman group): Introduction and overview of the workshop.
