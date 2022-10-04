@@ -1,0 +1,58 @@
+##Packages and libraries required for the workshop
+
+1. Rstudio 
+Please follow this link for further details: https://www.dataquest.io/blog/installing-r-on-your-computer/
+
+2. Packages Required
+##Seurat
+install.packages('Seurat')
+install.packages("flexmix")
+install.packages("splines")
+if (!require("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("scRNAseq")
+BiocManager::install("SingleCellExperiment")
+BiocManager::install("scater")
+BiocManager::install("biomaRt")
+BiocManager::install("miQC")
+BiocManager::install("scuttle")
+BiocManager::install("GSVA")
+BiocManager::install("dittoSeq")
+BiocManager::install("escape")
+BiocManager::install("ReactomeGSA")
+
+remotes::install_github('chris-mcginnis-ucsf/DoubletFinder')
+
+##Seurat data
+devtools::install_github("satijalab/seurat-data", ref = 'develop')
+InstallData("bmcite")
+
+3. ##other Packages
+install.packages("dplyr")
+install.packages("RCurl")
+install.packages("cowplot")
+install.packages("data.table") 
+
+4. ggplot2
+# The easiest way to get ggplot2 is to install the whole tidyverse:
+install.packages("tidyverse")
+# Alternatively, install just ggplot2:
+install.packages("ggplot2")
+# Or the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/ggplot2")
+
+5. magrittr
+# The easiest way to get magrittr is to install the whole tidyverse:
+install.packages("tidyverse")
+# Alternatively, install just magrittr:
+install.packages("magrittr")
+# Or the development version from GitHub:
+# install.packages("devtools")
+devtools::install_github("tidyverse/magrittr")
+
+6. EnrichR
+install.packages('enrichR')
+or
+install.packages("devtools")
+devtools::install_github("wjawaid/enrichR")
