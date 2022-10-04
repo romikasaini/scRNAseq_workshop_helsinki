@@ -8,12 +8,12 @@ date: '2022-09-22'
 
 We begin with setting the seed for all of our computations and reading the files from 10X pipeline.
 
-#Change your working directory under Session > Set Working Directory > Choose Directory.
+
 
 ```{r}
 library(RCurl)
 library(Seurat)
-#path="C:/Users/psergeev/OneDrive/OneDrive - University of Helsinki/Project stuff/AP project (Juho, Romika)/scRNA myeloma/Samples/FH_6261_5/outs/filtered_feature_bc_matrix"
+#Change your working directory under Session > Set Working Directory > Choose Directory. OR
 #setwd(dirname("/Users/kumariro/Desktop/Nemhesys_workshop/scRNAseq_workshop_helsinki"))
 path="data1/"
 set.seed(100101) #for UMAP
