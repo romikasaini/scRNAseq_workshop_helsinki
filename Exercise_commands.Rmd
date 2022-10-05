@@ -267,7 +267,7 @@ seurat_obj <- ScaleData(seurat_obj)
 ```
 
 #Linear dimension reduction
-Next step is to perform principal component analysis on the scaled data using the 2000 variable features as input. I frequired a different subset can be used by using the 'features' argument.
+Next step is to perform principal component analysis on the scaled data using the 2000 variable features as input. If required a different subset can be used by using the 'features' argument.
 
 ```{r}
 seurat_obj <- RunPCA(seurat_obj, features = VariableFeatures(object = seurat_obj))
