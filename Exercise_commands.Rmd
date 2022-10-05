@@ -246,8 +246,18 @@ output: html_document
 #Scaling the data
 Next we will be using ScaleData() function from seurat package to carry out linear transformation of the data such that each gene has a mean expression 0 and variance 1 across the cells.
 ```{r}
+##data before scaling
+tail(GetAssayData(seurat_obj, slot = "data"))[1:5,1:5]
+raw_data<-GetAssayData(seurat_obj, slot = "data")
 all.genes <- rownames(seurat_obj)
+
+##after scaling
 seurat_obj <- ScaleData(seurat_obj, features = all.genes)
+tail(GetAssayData(seurat_obj, slot = "data"))[1:5,1:5]
+scaled_data<-GetAssayData(seurat_obj, slot = "scale.data")
+par(mfrow=c(1,2))
+hist(as.matrix(rowMeans(raw_data)))
+hist(as.matrix(rowMeans(scaled_data)))
 ```
 
 The step above can require long processing time. Alternative is to perform the scaling on the previously identified 2000 variable features and doing this will not affect the PCA and clustering. 
