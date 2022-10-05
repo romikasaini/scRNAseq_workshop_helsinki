@@ -32,7 +32,7 @@ Thursday 6th October, Biomedicum 2U, D307a, Third floor D-wing
 
 2.45-3.30 Anil Kumar (Senior researcher): Sctype: Fully-automated cell type identification of scRNA-seq profiles.
 
-3.30-4.00 Imre Västrik (Research coordinator, FIMM): scRNA-seq data platform.
+3.30-4.00 Imre Västrik (Research coordinator, FIMM): Working with scRNA-seq data from multiple samples.
 
 
 7.00 Dinner
